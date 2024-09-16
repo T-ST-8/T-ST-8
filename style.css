@@ -79,6 +79,7 @@ header p {
 .grid-footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 1px;
 }
 
 footer p {
@@ -86,6 +87,15 @@ footer p {
 }
 footer h3 {
   color: white;
+}
+.display_1 {
+  text-align: center;
+  padding-top: 3rem;
+}
+.footer-logo img {
+  width: 100px;
+  height: auto;
+  padding: 10px 0;
 }
 
 /* Index */
