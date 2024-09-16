@@ -5,10 +5,21 @@ fetch("https://axcgppzsihqhelmllyrd.supabase.co/rest/v1/T&SL", {
   },
 })
   .then((res) => res.json())
-  .then(showData);
+  .then(showCategories);
 
-function showData(items) {
-  console.log(items);
+function showCategories(cats) {
+  cats.forEach(showCategory);
+}
+
+function showCategory(cat) {
+  const template = document.querySelector("template").content;
+
+  const clone = template.cloneNode(true);
+
+  clone.querySelector("h3").textContent = cat.category;
+  clone.querySelector("a").href = `produktliste.html?category=${cat.category}`;
+
+  document.querySelector(".kategorier_grid").appendChild(clone);
 }
 
 /* function showData(items) {
