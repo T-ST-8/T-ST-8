@@ -31,6 +31,23 @@ p {
   font-weight: 100;
 }
 
+<<<<<<< HEAD
+
+
+
+/* prouktside CSS */
+.bookinginfo{
+  background-color: var(--color);
+}
+.åbningstider{
+  background-color: var(--color);
+}
+.studiekort{
+  background-color: var(--color);
+
+}
+=======
+<<<<<<< HEAD
 /* Menu */
 header {
   display: flex;
