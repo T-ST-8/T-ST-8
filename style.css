@@ -31,23 +31,17 @@ p {
   font-weight: 100;
 }
 
-<<<<<<< HEAD
-
-
-
 /* prouktside CSS */
-.bookinginfo{
+.bookinginfo {
   background-color: var(--color);
 }
-.åbningstider{
+.åbningstider {
   background-color: var(--color);
 }
-.studiekort{
+.studiekort {
   background-color: var(--color);
+}
 
-}
-=======
-<<<<<<< HEAD
 /* Menu */
 header {
   display: flex;
