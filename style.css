@@ -47,5 +47,27 @@ p {
 
 }
 =======
+<<<<<<< HEAD
+/* Menu */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f0e9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+  padding: 10px 0;
+}
+=======
 /* Index */
 >>>>>>> bef0decae452e656b945b48865bad4b058169a6c
