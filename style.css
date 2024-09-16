@@ -1,5 +1,13 @@
 html {
   --font: "helvetica neue lt std";
+  --rød: #ea5045;
+  --mørkeblå: #2d67aa;
+  --lyseblå: #77c2e1;
+  --orange: #dc6c2b;
+  --gul: #fada64;
+  --mint: #85c1ad;
+  --grøn: #89bc86;
+  --lilla: #9d97c5;
 }
 
 h1 {
@@ -23,6 +31,7 @@ p {
   font-weight: 100;
 }
 
+<<<<<<< HEAD
 /* Menu */
 header {
   display: flex;
@@ -43,3 +52,6 @@ header {
   height: auto;
   padding: 10px 0;
 }
+=======
+/* Index */
+>>>>>>> bef0decae452e656b945b48865bad4b058169a6c
