@@ -57,10 +57,35 @@ header {
   box-sizing: border-box;
 }
 
+header p {
+  color: #dc6c2b;
+  background-color: white;
+  text-align: right;
+  display: block;
+  padding: 17px;
+  margin: 0;
+}
+
 .logo img {
-  width: 120px;
+  width: 100px;
   height: auto;
   padding: 10px 0;
+}
+/*Footer*/
+.custom-footer {
+  background-color: #233249;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer p {
+  color: white;
+}
+footer h3 {
+  color: white;
 }
 
 /* Index */
