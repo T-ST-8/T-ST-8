@@ -1,7 +1,7 @@
 html {
   --font: "helvetica neue lt std";
   --rød: #ea5045;
-  --mørkeblå: #2d67aa;
+  --mørkeblå: #233249;
   --lyseblå: #77c2e1;
   --orange: #dc6c2b;
   --gul: #fada64;
@@ -47,7 +47,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f6f0e9;
+  background-color: #233249;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
