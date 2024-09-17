@@ -8,14 +8,18 @@ html {
   --mint: #85c1ad;
   --grøn: #89bc86;
   --lilla: #9d97c5;
+  --blå: #2d67aa;
 }
 
 h1 {
   font-family: var(--font);
+  margin: 5rem 16rem 2rem;
+  font-size: 4rem;
 }
 
 h2 {
   font-family: var(--font);
+  text-align: center;
 }
 h3 {
   font-family: var(--font);
@@ -64,3 +68,72 @@ header {
 }
 
 /* Index */
+.infobokse {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin: 7rem;
+}
+.studiekort {
+  background-color: var(--blå);
+  color: white;
+  padding: 1.5rem;
+}
+
+.adgang {
+  background-color: var(--rød);
+  color: white;
+  padding: 1.5rem;
+}
+
+.abningstider {
+  background-color: var(--lyseblå);
+  color: white;
+  padding: 1.5rem;
+}
+img {
+  width: 100%;
+}
+
+.tekst {
+  margin: 0rem 16rem;
+  line-height: 150%;
+}
+
+.kategori_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(217, 217, 217, 1);
+  padding: 5rem;
+  gap: 1rem;
+}
+
+.adresse {
+  background-color: white;
+  padding: 2rem;
+  width: 400px;
+}
+
+.adresse img {
+  height: 444px;
+  width: 349px;
+}
+
+.kontakt {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 5rem;
+  gap: 3rem;
+}
+
+.kontakt img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
