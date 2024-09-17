@@ -34,7 +34,26 @@ function vis(data) {
   });
 }
 
-/*   showProduct);
+/* billeder?
+function showData(items) {
+  items.forEach(showImage);
+}
+function showImage(item) {
+  console.log("data item", item);
+
+  const template = document.querySelector("template").content;
+  console.log("template", template);
+  const clone = template.cloneNode(true);
+
+  const image = clone.querySelector("img");
+  image.alt = "image of" + item.name;
+  image.src = `imgs/${item.img}`;
+  document.querySelector("body").appendChild(image);
+}
+*/
+
+/*  Gamle js
+ showProduct);
 }
 
 function showProduct(product) {

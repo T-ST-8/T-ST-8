@@ -46,7 +46,6 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
-
   }
   .produkt_grid_2 {
     display: grid;
@@ -54,19 +53,17 @@ main {
     gap: 1em;
   }
 
-  .formfield{
-    margin:50px 0 0 10px ;
+  .formfield {
+    margin: 50px 0 0 10px;
   }
-.åbningstider{
-  margin: auto;
-}
+  .åbningstider {
+    margin: auto;
+  }
 
-.studiekort{
-  margin: auto ;
+  .studiekort {
+    margin: auto;
+  }
 }
-
-}
-
 
 .h1center {
   text-align: center;
@@ -91,7 +88,6 @@ main {
   max-width: 230px;
   margin: auto;
   margin-top: 20px;
-
 }
 .studiekort {
   color: white;
@@ -99,8 +95,6 @@ main {
   padding: 1px 30px 10px 30px;
   max-width: 230px;
   margin: auto;
-
-
 }
 .produktimg {
   max-width: 100%;
@@ -111,10 +105,9 @@ main {
   padding: 20px 5px 35px 20px;
 }
 
-.card_grid_2{
+.card_grid_2 {
   padding: 40px 60px 3px px;
 }
-
 
 input[type="text"],
 select,
@@ -128,7 +121,7 @@ textarea {
   background-color: var(--grå);
 }
 
-.spørgsmål{
+.spørgsmål {
   width: 100%;
   padding: 12px 12px 80px 12px;
   border: 1px solid #ccc;
@@ -138,12 +131,10 @@ textarea {
   background-color: var(--grå);
 }
 
-
 label {
   padding: 12px 0 5px 0;
   display: inline-block;
   margin-top: 10px;
-
 }
 
 input[type="submit"] {
@@ -157,14 +148,13 @@ input[type="submit"] {
   float: right;
 }
 
-.formfield{
+.formfield {
   max-width: 300px;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px 10px 60px 10px;
-    margin: auto ;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px 10px 60px 10px;
+  margin: auto;
 }
-
 
 /* Menu */
 header {
@@ -267,20 +257,37 @@ img {
   margin: 0rem 16rem;
   line-height: 150%;
 }
-
+.udstyr {
+  background-color: #233249;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.kategorier {
+  text-align: center;
+}
 .kategori_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   gap: 1rem;
+  margin: 1rem 8rem 4rem;
 }
-.category {
+.card {
   display: grid;
-  justify-content: center;
 }
-.category h3 {
+.card h3 {
   background-color: var(--gul);
   padding: 10px 30px;
+  text-align: center;
+}
+
+.card a {
+  text-decoration: none;
+  background-color: var(--mørkeblå);
+  color: white;
+  padding: 10px;
+  font-family: var(--font);
 }
 .info {
   display: grid;
