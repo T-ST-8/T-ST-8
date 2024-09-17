@@ -177,7 +177,7 @@ footer h3 {
   gap: 50px;
   margin: 7rem;
 }
-.studiekort {
+.studiekort1 {
   background-color: var(--blå);
   color: white;
   padding: 1.5rem;
@@ -239,4 +239,9 @@ img {
   border-radius: 50%;
   height: 200px;
   width: 200px;
+}
+
+.kategori_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
