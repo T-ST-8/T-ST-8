@@ -240,8 +240,3 @@ img {
   height: 200px;
   width: 200px;
 }
-
-.kategori_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
