@@ -8,6 +8,7 @@ html {
   --mint: #85c1ad;
   --grøn: #89bc86;
   --lilla: #9d97c5;
+  --grå: rgba(217, 217, 217, 1);
 }
 
 h1 {
@@ -31,20 +32,81 @@ p {
   font-weight: 100;
 }
 
+main{
+  line-height: 1.4;
+}
+
+
+
 
 
 
 /* prouktside CSS */
-.bookinginfo{
-  background-color: var(--rød);
-}
-.åbningstider{
-  background-color: var(--lyseblå);
-}
-.studiekort{
-  background-color: var(--mørkeblå);
+@media (min-width: 700px) {
+  .card_grid_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+  .produkt_grid_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
 
 }
+
+@media (min-width: 700px) {
+  
+}
+
+.h1center{
+  text-align: center;
+}
+
+.bg_grå{
+  background-color: var(--grå);
+}
+
+.bookinginfo{
+  color: white;
+  background-color: var(--mørkeblå);
+  padding: 1px 30px 1px 30px;
+  max-width: 230px;
+  margin-bottom: 15%;
+
+}
+
+.åbningstider{
+  color: white;
+  background-color: var(--lyseblå);
+  padding: 1px 30px 1px 30px;
+  margin-bottom: 15%;
+  max-width: 230px;
+}
+.studiekort{
+  color: white;
+  background-color: var(--rød);
+  padding: 1px 30px 1px 30px;
+  max-width: 230px;
+  margin-bottom: 15%;
+
+}
+.produktimg{
+  max-width: 100%;
+}
+
+.bg-øverst{
+  background-color: var(--orange);
+  padding: 1% 3% 15%;
+}
+
+.card_grid_2{
+  padding: 15% 1% 3%;
+}
+
+
+
 /* Menu */
 header {
   display: flex;
