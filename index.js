@@ -5,7 +5,7 @@ fetch("https://axcgppzsihqhelmllyrd.supabase.co/rest/v1/T&SL", {
   },
 })
   .then((res) => res.json())
-  .then(showCategories);
+  .then(console.log);
 
 function showCategories(cats) {
   cats.forEach(showCategory);
@@ -16,8 +16,8 @@ function showCategory(cat) {
 
   const clone = template.cloneNode(true);
 
-  clone.querySelector("h3").textContent = cat.category;
-  clone.querySelector("a").href = `produktliste.html?category=${cat.category}`;
+  clone.querySelector("h3").textContent = cat.type;
+  clone.querySelector("a").href = `produktliste.html?type=${cat.type}`;
 
   document.querySelector(".kategorier_grid").appendChild(clone);
 }
