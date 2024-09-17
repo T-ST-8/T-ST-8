@@ -206,8 +206,17 @@ img {
 .kategori_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 1rem;
 }
-
+.category {
+  display: grid;
+  justify-content: center;
+}
+.category h3 {
+  background-color: var(--gul);
+  padding: 10px 30px;
+}
 .info {
   display: grid;
   grid-template-columns: 1fr 1fr;
