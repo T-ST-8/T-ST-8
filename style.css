@@ -61,10 +61,58 @@ header {
   box-sizing: border-box;
 }
 
+header p {
+  color: #dc6c2b;
+  background-color: white;
+  text-align: right;
+  display: block;
+  padding: 17px;
+  margin: 0;
+}
+
 .logo img {
-  width: 120px;
+  width: 100px;
   height: auto;
   padding: 10px 0;
+}
+/*Footer*/
+.custom-footer {
+  background-color: #233249;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 1px;
+}
+
+footer p {
+  color: white;
+}
+footer h3 {
+  color: white;
+}
+.display_1 {
+  text-align: center;
+  padding-top: 3rem;
+}
+.footer-logo img {
+  width: 150px;
+  height: auto;
+  padding: 10px 0;
+  margin-left: 15px;
+}
+
+/*Produktliste*/
+
+.foto img {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.produktliste-h1 {
+  text-align: center;
 }
 
 /* Index */
