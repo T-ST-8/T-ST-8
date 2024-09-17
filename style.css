@@ -93,9 +93,22 @@ footer h3 {
   padding-top: 3rem;
 }
 .footer-logo img {
-  width: 100px;
+  width: 150px;
   height: auto;
   padding: 10px 0;
+  margin-left: 15px;
+}
+
+/*Produktliste*/
+
+.foto img {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.produktliste-h1 {
+  text-align: center;
 }
 
 /* Index */
