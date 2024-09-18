@@ -59,18 +59,18 @@ main {
   .åbningstider {
     margin: auto;
   }
-  
+
   .studiekort {
     margin: auto;
   }
 }
-.h1produkt{
+.h1produkt {
   font-family: var(--font);
   margin: 10% auto;
   color: rgb(245, 241, 241);
 }
 
-.pProdukt{
+.pProdukt {
   color: rgb(245, 241, 241);
   font-size: large;
 }
@@ -106,7 +106,6 @@ main {
   max-width: 230px;
   margin: auto;
   margin-top: 20px;
-
 }
 .produktimg {
   max-width: 100%;
@@ -226,14 +225,34 @@ footer h3 {
 }
 
 /*Produktliste*/
+.produktliste_grid {
+  display: grid;
+}
 
 .foto img {
   width: 100%;
   height: auto;
   padding: 10px 0;
 }
+.produktliste_overskrift {
+  text-align: center;
+}
 
-.produktliste-h1 {
+.produktliste_card {
+  display: grid;
+}
+
+.produktliste_card h3 {
+  background-color: var(--gul);
+  padding: 10px 30px;
+  text-align: center;
+}
+.produktliste_card a {
+  text-decoration: none;
+  background-color: var(--mørkeblå);
+  color: white;
+  padding: 10px;
+  font-family: var(--font);
   text-align: center;
 }
 
