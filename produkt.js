@@ -1,5 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
-const id = urlParams.get("objektkode");
+const id = urlParams.get("id");
 
 window.addEventListener("load", getProduct);
 
@@ -13,9 +13,10 @@ function getProduct() {
     .then(visProdukt);
 }
 function visProdukt(data) {
+  console.log(data);
   if (data && data.length > 0) {
     const singleProduct = data[0];
-    document.querySelector("h1").textContent = singleProduct.name;
+    document.querySelector("h1").textContent = singleProduct.produktnavn;
   } else {
     console.error("No product found.");
   }

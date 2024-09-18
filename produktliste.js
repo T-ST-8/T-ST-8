@@ -29,7 +29,8 @@ function vis(data) {
     const template = document.querySelector("template").content;
     const copy = template.cloneNode(true);
     copy.querySelector("h3").textContent = item.produktnavn;
-
+    copy.querySelector("a").href = `produkt.html?id=${item.asset_id}`;
+    copy.querySelector("img").src = "pimgs/" + item.asset_id + ".webp";
     document.querySelector("main").appendChild(copy);
   });
 }
