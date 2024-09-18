@@ -59,10 +59,20 @@ main {
   .åbningstider {
     margin: auto;
   }
-
+  
   .studiekort {
     margin: auto;
   }
+}
+.h1produkt{
+  font-family: var(--font);
+  margin: 10% auto;
+  color: rgb(245, 241, 241);
+}
+
+.pProdukt{
+  color: rgb(245, 241, 241);
+  font-size: large;
 }
 
 .h1center {
@@ -95,6 +105,8 @@ main {
   padding: 1px 30px 10px 30px;
   max-width: 230px;
   margin: auto;
+  margin-top: 20px;
+
 }
 .produktimg {
   max-width: 100%;
@@ -153,7 +165,7 @@ input[type="submit"] {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px 10px 60px 10px;
-  margin: auto;
+  margin: 15% auto;
 }
 
 /* Menu */
