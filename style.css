@@ -46,6 +46,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
+    padding-bottom: 30px;
+
   }
   .produkt_grid_2 {
     display: grid;
@@ -56,14 +58,33 @@ main {
   .formfield {
     margin: 50px 0 0 10px;
   }
-  .åbningstider {
-    margin: auto;
+
+  .produkt_grid_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    margin: 1rem 4rem 4rem;
   }
-  
-  .studiekort {
-    margin: auto;
-  }
+
+
 }
+
+.h3produkt{
+  background-color: var(--orange);
+  padding: 10px 30px;
+  text-align: center;
+  margin-top: 50px;
+  }
+
+  .aProdukt{
+    text-decoration: none;
+    background-color: var(--mørkeblå);
+    color: white;
+    padding: 10px;
+    font-family: var(--font);
+    display: block;
+    }
+
 .h1produkt{
   font-family: var(--font);
   margin: 10% auto;
@@ -72,7 +93,8 @@ main {
 
 .pProdukt{
   color: rgb(245, 241, 241);
-  font-size: large;
+  font-size: xx-large;
+  
 }
 
 .h1center {
@@ -80,7 +102,10 @@ main {
 }
 
 .bg_grå {
-  background-color: var(--grå);
+  background-color: #f2f2f2;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: 20px;
 }
 
 .bookinginfo {
@@ -94,7 +119,7 @@ main {
 .åbningstider {
   color: white;
   background-color: var(--lyseblå);
-  padding: 1px 30px 10px 30px;
+  padding: 1px 100px 10px 100px;
   max-width: 230px;
   margin: auto;
   margin-top: 20px;
@@ -102,7 +127,7 @@ main {
 .studiekort {
   color: white;
   background-color: var(--rød);
-  padding: 1px 30px 10px 30px;
+  padding: 1px 100px 46px 100px;
   max-width: 230px;
   margin: auto;
   margin-top: 20px;
@@ -110,15 +135,13 @@ main {
 }
 .produktimg {
   max-width: 100%;
+  transform: scale(0.75);
+
 }
 
 .bg-øverst {
   background-color: var(--orange);
   padding: 20px 5px 35px 20px;
-}
-
-.card_grid_2 {
-  padding: 40px 60px 3px px;
 }
 
 input[type="text"],
@@ -140,7 +163,7 @@ textarea {
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
-  background-color: var(--grå);
+  background-color: var(--grå); 
 }
 
 label {
@@ -150,12 +173,12 @@ label {
 }
 
 input[type="submit"] {
-  background-color: var(--mørkeblå);
+  background-color: var(--blå);
   color: rgb(255, 255, 255);
-  padding: 12px 20px;
-  margin-top: 10px;
+  padding: 12px 40px;
+  margin: 10px 90px;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
   cursor: pointer;
   float: right;
 }
