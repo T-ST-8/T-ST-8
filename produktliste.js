@@ -19,13 +19,14 @@ fetch(`https://axcgppzsihqhelmllyrd.supabase.co/rest/v1/T&SL?category=eq.${encod
         return true;
       }
     });
-    vis(filteredData);
+    vis(filteredData.slice(0, 8));
   });
 
 function vis(data) {
   console.table(data); // Dette viser dataene i konsollen
 
   data.forEach((item) => {
+    document.querySelector("h1").textContent = item.category;
     const template = document.querySelector("template").content;
     const copy = template.cloneNode(true);
     copy.querySelector("h3").textContent = item.produktnavn;
