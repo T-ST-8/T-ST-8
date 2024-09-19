@@ -18,7 +18,7 @@ function visProdukt(data) {
     const singleProduct = data[0];
     document.querySelector("h1").textContent = singleProduct.produktnavn;
     document.querySelector(".produktimg").src = "pimgs/" + singleProduct.asset_id + ".webp";
-    document.querySelector("p").textContent = "Kategori:" + singleProduct.type;
+    document.querySelector(".pProdukt").textContent = "Kategori:" + singleProduct.type;
   } else {
     console.error("No product found.");
   }
