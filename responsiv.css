@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  .grid-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .produktliste_grid {
+    grid-template-columns: 1fr;
+  }
+
+  header p {
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 70px;
+  }
+  .foto img {
+    padding: 35px 0;
+  }
+}

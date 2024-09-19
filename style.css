@@ -91,7 +91,7 @@ main {
   color: rgb(245, 241, 241);
 }
 
-.pProdukt{
+.pProdukt {
   color: rgb(245, 241, 241);
   font-size: xx-large;
   
@@ -131,7 +131,6 @@ main {
   max-width: 230px;
   margin: auto;
   margin-top: 20px;
-
 }
 .produktimg {
   max-width: 100%;
@@ -249,14 +248,36 @@ footer h3 {
 }
 
 /*Produktliste*/
+.produktliste_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
 
 .foto img {
   width: 100%;
   height: auto;
   padding: 10px 0;
 }
+.produktliste_overskrift {
+  text-align: center;
+}
 
-.produktliste-h1 {
+.produktliste_card {
+  display: grid;
+}
+
+.produktliste_card h3 {
+  background-color: var(--gul);
+  padding: 10px 30px;
+  text-align: center;
+}
+.produktliste_card a {
+  text-decoration: none;
+  background-color: var(--mørkeblå);
+  color: white;
+  padding: 10px;
+  font-family: var(--font);
   text-align: center;
 }
 
@@ -305,7 +326,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  gap: 1rem;
+  gap: 3rem;
   margin: 1rem 8rem 4rem;
 }
 .card {
@@ -315,6 +336,7 @@ img {
   background-color: var(--gul);
   padding: 10px 30px;
   text-align: center;
+  margin: 0;
 }
 
 .card a {
@@ -355,4 +377,18 @@ img {
   border-radius: 50%;
   height: 200px;
   width: 200px;
+}
+@media (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .grid-footer {
+    grid-template-columns: 1fr 1fr;
+  }
 }

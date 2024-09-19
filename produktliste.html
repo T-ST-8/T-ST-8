@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiv.css">
     <title>Document</title>
 </head>
 
@@ -22,24 +23,32 @@
     </header>
 
     <main>
+
         <div class="foto">
             <img src="imgs/foto&video.png" alt="foto&video">
         </div>
-        <h1>Foto/Video</h1>
+        <div class="produktliste_overskrift">
+            <h1>Foto/Video</h1>
+        </div>
         <p>Her finder du alt lige fra forskellige kameraer, objektiver og stabilisatorer til diverse tripods, mikrofoner
             og
             lysudstyr. Hvad enten du er på udkig efter grej til fx portræt- og produktbilleder, interviews eller
             podcasts, har vi
             alt, du har brug for.
         </p>
-        <div class="produktliste-h1">
+
+
+        <div class="produktliste_grid">
 
             <template>
-                <div>
+                <article class="produktliste_card">
+
                     <h3></h3>
                     <img src="" alt="">
-                    <a href="produkt.html">Se udstyr og ledighed</a>
-                </div>
+                    <a href="produkt.html?id=${item.asset_id}">Se udstyr og ledighed</a>
+
+                </article>
+
             </template>
         </div>
 
