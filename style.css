@@ -303,7 +303,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  gap: 1rem;
+  gap: 3rem;
   margin: 1rem 8rem 4rem;
 }
 .card {
@@ -313,6 +313,7 @@ img {
   background-color: var(--gul);
   padding: 10px 30px;
   text-align: center;
+  margin: 0;
 }
 
 .card a {
