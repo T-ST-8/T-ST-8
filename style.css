@@ -352,3 +352,17 @@ img {
   height: 200px;
   width: 200px;
 }
+@media (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .grid-footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
