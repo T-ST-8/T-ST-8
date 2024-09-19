@@ -1,14 +1,20 @@
-@media (min-width: 768px) {
-  header {
-    flex-direction: row;
-    justify-content: space-between;
+@media (max-width: 768px) {
+  .grid-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .produktliste_grid {
+    grid-template-columns: 1fr;
+  }
+
+  header p {
+    padding: 10px;
   }
 
   .logo img {
-    width: 100px;
+    width: 70px;
   }
-
-  .grid-footer {
-    grid-template-columns: 1fr 1fr;
+  .foto img {
+    padding: 35px 0;
   }
 }
