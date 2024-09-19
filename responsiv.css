@@ -17,10 +17,7 @@
   .foto img {
     padding: 35px 0;
   }
-}
 
-/*Mobil index*/
-@media (max-width: 700px) {
   h1 {
     font-family: var(--font);
     font-size: 2rem;
@@ -69,5 +66,9 @@
     height: 200px;
     width: 200px;
     align-items: center;
+  }
+
+  .pProdukt {
+    font-size: medium;
   }
 }

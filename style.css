@@ -39,6 +39,33 @@ p {
 main {
   line-height: 1.4;
 }
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  font-family: var(--font);
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: var(--mørkeblå);
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
 
 /* prouktside CSS */
 @media (min-width: 700px) {
@@ -47,7 +74,6 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     padding-bottom: 30px;
-
   }
   .produkt_grid_2 {
     display: grid;
@@ -59,33 +85,31 @@ main {
     margin: 50px 0 0 10px;
   }
 
-  .produkt_grid_3{
+  .produkt_grid_3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
     margin: 1rem 4rem 4rem;
   }
-
-
 }
 
-.h3produkt{
+.h3produkt {
   background-color: var(--orange);
   padding: 10px 30px;
   text-align: center;
   margin-top: 50px;
-  }
+}
 
-  .aProdukt{
-    text-decoration: none;
-    background-color: var(--mørkeblå);
-    color: white;
-    padding: 10px;
-    font-family: var(--font);
-    display: block;
-    }
+.aProdukt {
+  text-decoration: none;
+  background-color: var(--mørkeblå);
+  color: white;
+  padding: 10px;
+  font-family: var(--font);
+  display: block;
+}
 
-.h1produkt{
+.h1produkt {
   font-family: var(--font);
   margin: 10% auto;
   color: rgb(245, 241, 241);
@@ -94,7 +118,6 @@ main {
 .pProdukt {
   color: rgb(245, 241, 241);
   font-size: xx-large;
-  
 }
 
 .h1center {
@@ -135,7 +158,6 @@ main {
 .produktimg {
   max-width: 100%;
   transform: scale(0.75);
-
 }
 
 .bg-øverst {
@@ -162,7 +184,7 @@ textarea {
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
-  background-color: var(--grå); 
+  background-color: var(--grå);
 }
 
 label {
