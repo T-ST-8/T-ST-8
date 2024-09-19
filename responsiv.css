@@ -18,3 +18,172 @@
     padding: 35px 0;
   }
 }
+
+/*Mobil index*/
+@media (max-width: 700px) {
+  h1 {
+    font-family: var(--font);
+    font-size: 2rem;
+    margin: 80px;
+    margin-top: 5px;
+  }
+
+  h2 {
+    font-family: var(--font);
+    text-align: center;
+  }
+  h3 {
+    font-family: var(--font);
+  }
+  h4 {
+    font-family: var(--font);
+  }
+  h5 {
+    font-family: var(--font);
+    font-size: 2rem;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+  .infobokse {
+    grid: none;
+    align-items: center;
+  }
+  .studiekort1 {
+    background-color: var(--blå);
+    color: white;
+  }
+
+  .adgang {
+    background-color: var(--rød);
+    color: white;
+  }
+
+  .abningstider {
+    background-color: var(--lyseblå);
+    color: white;
+  }
+  img {
+    width: 100%;
+  }
+
+  .tekst {
+    line-height: 150%;
+    margin: 50px;
+  }
+  .udstyr {
+    background-color: #233249;
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .kategorier {
+    text-align: center;
+    margin: 80px;
+  }
+  .kategori_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: left;
+    gap: 1rem;
+    margin: 15px;
+  }
+  .card {
+    grid: none;
+  }
+  .card h3 {
+    background-color: var(--gul);
+    padding: 10px 30px;
+    text-align: center;
+  }
+
+  .card a {
+    text-decoration: none;
+    background-color: var(--mørkeblå);
+    color: white;
+    padding: 10px;
+    font-family: var(--font);
+  }
+  .info {
+    grid: none;
+    background-color: rgba(217, 217, 217, 1);
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .adresse {
+    background-color: white;
+    padding: 2rem;
+    width: 300px;
+  }
+
+  .adresse img {
+    height: 444px;
+    width: 300px;
+  }
+
+  .kontakt {
+    grid: none;
+    text-align: center;
+    padding: 5rem;
+    gap: 3rem;
+  }
+
+  .kontakt img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+  }
+  /*Footer*/
+  .custom-footer {
+    background-color: #233249;
+  }
+
+  footer p {
+    color: white;
+    font-size: smaller;
+  }
+  footer h3 {
+    color: white;
+  }
+  .display_1 {
+    text-align: center;
+    padding-top: 3rem;
+  }
+  .footer-logo img {
+    width: 150px;
+    height: auto;
+    padding: 10px 0;
+    margin-left: 30px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #233249;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  header p {
+    color: #dc6c2b;
+    background-color: white;
+    text-align: right;
+    display: block;
+    padding: 17px;
+    margin: 0;
+  }
+
+  .logo img {
+    width: 100px;
+    height: auto;
+    padding: 10px 0;
+  }
+}
