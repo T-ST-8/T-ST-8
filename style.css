@@ -227,6 +227,8 @@ footer h3 {
 /*Produktliste*/
 .produktliste_grid {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
 }
 
 .foto img {
