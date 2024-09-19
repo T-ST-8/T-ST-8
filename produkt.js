@@ -21,7 +21,6 @@ function visProdukt(data) {
     document.querySelector(".pKategori").textContent = "Kategori: " + singleProduct.type;
     document.querySelector(".pDevice").textContent = "Enhedstype: " + singleProduct.device;
 
-    document.querySelector(".pProdukt").textContent = "Kategori:" + singleProduct.type;
   } else {
     console.error("No product found.");
   }
